@@ -1,0 +1,71 @@
+.Container {
+  background-image: url("./nubes.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 600px;
+}
+.Box {
+  width: 667px;
+  display: flex;
+  flex-direction: row;
+  flex-direction: column;
+  border: 2px solid #ae5d9982;
+  background: rgba(152, 98, 138, 0.663) color(srgb red green blue);
+}
+
+.Title {
+  font-size: 50px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(65, 9, 37);
+}
+.Description {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 32px;
+  color: rgb(12, 12, 12);
+}
+.subtitulo {
+  color: rgb(22, 22, 22);
+}
+.Description2 {
+  color: rgb(246, 241, 251);
+}
+.botns1 {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.Botns {
+  display: flex;
+  gap: 8px;
+}
+
+.Botns button {
+  color: rgb(148, 96, 145);
+  padding: 10px 30px;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: black;
+  text-align: center;
+}
+.click:hover {
+  cursor: pointer;
+}
+.icons1 {
+  height: 50px;
+  font-weight: 900px;
+  padding: 30px 30px;
+  font-size: 10px;
+}
+.icons {
+  display: flex;
+  gap: 10px;
+  background-color: rgb(110, 104, 109);
+}

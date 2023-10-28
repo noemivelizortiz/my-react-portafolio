@@ -1,0 +1,55 @@
+.Container1 {
+  background-color: #d1cbe3fc;
+  display: flex;
+  justify-content: center;
+}
+.Container {
+  width: 1340px;
+  height: 45;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #151515;
+}
+.Logo {
+  display: flex;
+  gap: 50px;
+}
+
+.Logo2 {
+  display: flex;
+  gap: 4px;
+  font-size: 10px;
+  width: 25px;
+  height: 25px;
+  justify-content: center;
+  color: rgb(244, 243, 244);
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #140111;
+}
+
+.Icons {
+  display: flex;
+  gap: 8px;
+}
+.Icons2 {
+  width: 30px;
+  height: 30px;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #f3e4f3;
+  
+}
+.Icons2:hover {
+  cursor: pointer;
+  background-color: #94a4be;
+  border-radius: 100px;
+  transform: scale(1.2);
+}
